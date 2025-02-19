@@ -16,7 +16,7 @@ jaar = int(input("noteer je geboortejaar (1900-2025) "))
 if jaar < 1900 or jaar > 2025:
     print("Error. Een jaar moet vier cijfers bevatten")
 
-# bonus: februari
+# bonus: februari en het schrikkeljaar
 if maand == 2:
     if (jaar % 100) == 0 and (jaar % 400) == 0:
         if dag > 29:

@@ -1,4 +1,5 @@
-print("Hallo ja")
-leeftijd = 18
-if leeftijd == 16:
-    print("Proficiat")
+print("hallo")
+naam = "arthur"
+if naam == "arthur":
+    print("hallo " + naam)
+

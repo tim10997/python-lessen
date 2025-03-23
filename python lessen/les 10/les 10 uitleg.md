@@ -24,7 +24,7 @@ Er bestaat een manier om dit efficiënter en beter te doen. Daarvoor gebruiken w
 
 Bv:
 ```python
-punt_op_toets = float(input("Wat  is de score van de toets op 10? "))
+punt_op_toets = float(input("Wat is de score van de toets op 10? "))
 
 if punt_op_toets < 5:
   print("Je bent niet geslaagd.")
@@ -87,7 +87,7 @@ Niet alleen is deze tweede optie 5 lijnen korter om hetzelfde te zeggen. Het is 
 ## Elif-gebruiken en conditionals opstellen
 Waarvoor kunnen we dit gebruiken?
 
-### 1 Een bereik vastleggen
+### 1 Een bereik vastleggen.
 
 We kunnen de volgorde van code gebruiken in ons voordeel. De computer leest de volgende elif pas als de vorige False was.
 

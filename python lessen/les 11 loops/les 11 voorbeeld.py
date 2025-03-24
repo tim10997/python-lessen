@@ -8,5 +8,5 @@ while worp != 1:
     worp_totaal = worp_totaal + worp
     worp = random.randint(1,6)
     print("Je hebt een " + str(worp) + " gegooid.")
-
-print("Je worp totaal was " + str(worp_totaal))
+else:
+    print("Je worp totaal was " + str(worp_totaal))

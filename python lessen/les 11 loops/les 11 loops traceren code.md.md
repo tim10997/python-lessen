@@ -43,10 +43,10 @@ sprinkler.turn_off()
 Het volgende programma neemt de aanwezigheden waar.
 ```python
 telling = 0
-while telling < 3:
+while telling <= 3:
     print("Zijn we er allemaal?")
     telling = telling + 1
-    print(aantal)
+    print(telling)
 ```
 ### optie 1:
 ```python
